@@ -1,6 +1,6 @@
 # Jungle
 
-A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
+A mini e-commerce application built with Rails 4.2.  Shoppers can browse products by categories and add items to cart.  Upon clicking cart they will be prompted to login or signup.  They can then proceed to pay for their order with Stripe.  After succesful payment details are entered they will see an order summary page.   Admins can create categories and products after succesful authentication.
 
 
 ## Setup
@@ -25,3 +25,4 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 * Rails 4.2 [Rails Guide](http://guides.rubyonrails.org/v4.2/)
 * PostgreSQL 9.x
 * Stripe
+
