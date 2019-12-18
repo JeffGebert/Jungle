@@ -85,4 +85,12 @@ main section.products-show {
   }
 }
 
+.signup {
+  height: 300px;
+  max-width: 400px;
+}
 
+.rows {
+  display:flex;
+  justify-content: space-between;
+}

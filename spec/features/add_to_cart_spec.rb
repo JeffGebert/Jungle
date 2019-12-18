@@ -20,12 +20,10 @@ RSpec.feature "users can navigate from the home page to the product detail page 
   scenario "They see all products" do
     # ACT
     visit root_path
-    puts page.html
     click_on(class:'btn btn-primary', match: :first)
     sleep(1)
     have_text 'My Cart (1)'
     sleep(2)
-    puts page.html
     save_screenshot 'add2cart.png'
 
     # VERIFY

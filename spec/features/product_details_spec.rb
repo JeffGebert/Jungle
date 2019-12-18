@@ -20,10 +20,7 @@ RSpec.feature "users can navigate from the home page to the product detail page 
   scenario "They see all products" do
     # ACT
     visit root_path
-    puts page.html
     click_link(class: 'btn btn-default pull-right', match: :first)
-    puts "break"
-    puts page.html
     sleep(1)
     save_screenshot 'productDetail.png'
 
