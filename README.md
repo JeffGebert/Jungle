@@ -26,7 +26,7 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 * PostgreSQL 9.x
 * Stripe
 
-##Screenshots
+## Screenshots
 
 ![Signup](/docs/Signup.png "Signup")
 ![Login](/docs/Login.png "Login")
