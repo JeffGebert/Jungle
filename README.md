@@ -26,3 +26,14 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 * PostgreSQL 9.x
 * Stripe
 
+##Screenshots
+
+![Signup](/docs/Signup.png "Signup")
+![Login](/docs/Login.png "Login")
+![Products](/docs/Products.png "Products")
+![Apparel](/docs/Apparel.png "Apparel")
+![Admin Categories](/docs/Admin:Categories.png "Admin Categories Page")
+
+
+
+
